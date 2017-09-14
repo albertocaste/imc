@@ -1,0 +1,98 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	background: url('../img/orange_wallpaper.jpg') no-repeat center center fixed;
+	background-size: cover;
+	font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+	text-align: center;
+	font-family: 'Anton', sans-serif;
+	font-size: 50px;
+	color: white;
+}
+
+.imc{
+	background: rgba(0, 0, 0, 0.3);
+	text-align: center;
+	margin-top: 100px;
+	font-size: 25px;
+	height: 500px;
+	width: 400px;
+	border-radius: 10px;
+	color: white;
+}
+
+input[type="text"]{
+	border: none;
+	background: rgba(0, 0, 0, 0);
+}
+
+.btn-block{
+	background: white;
+	color: orange;
+	font-size: 25px;
+	font-family: 'Anton', sans-serif;
+	border: none;
+}
+
+.btn-block:hover{
+	background: orange;
+	color: white;
+}
+
+label{
+	margin-right: 20px;
+}
+
+#hombre{
+	margin-right: 10px;
+}
+
+#mujer{
+	margin-right: 10px;
+}
+
+#numimc{
+	font-size: 40px;
+}
+
+a{
+	background: white;
+	color: orange;
+	padding: 10px;
+	border-radius: 10px;
+}
+
+.imc2{
+	background: rgba(0, 0, 0, 0.3);
+	text-align: center;
+	margin-top: 100px;
+	font-size: 15px;
+	height: 100%;
+	width: 1100px;
+	border-radius: 10px;
+	color: white;
+}
+
+#inframujer{
+	width: ;
+	height: 10px;
+	background: pink;
+}
+
+.registro{
+	height: 60px;
+	color: white;
+	float: left;
+	font-size: 10px;
+	padding-top: 5px;
+}
+
+span{
+	font-size: 15px;
+	margin-top: 5px;
+}
